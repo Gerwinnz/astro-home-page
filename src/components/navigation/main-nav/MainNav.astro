@@ -40,13 +40,8 @@ const mobileNavData = [
   {...htmlAttributes}
   useDefaultEditableBinding={false}
 >
-  <a href="/">
-    <Image
-      source={logoSource}
-      class="main-nav-logo"
-      alt={logoAlt}
-      useDefaultEditableBinding={false}
-    />
+  <a class="logo" href="/">
+    Gerwin
   </a>
   <div class="nav-end">
     <Bar
@@ -95,6 +90,12 @@ const mobileNavData = [
         @container (min-width: 769px) {
           display: none;
         }
+      }
+
+      a.logo {
+        color: #FF5814;
+        font-weight: bold;
+        text-decoration: none;
       }
 
       > .outer-content > .content {
