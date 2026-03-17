@@ -2,35 +2,19 @@
 _schema: default
 title: Gerwin van Royen
 description: >-
-  Build fast, customizable Astro sites with a modern component starter that is
-  easy to edit and maintain.
+  Home page of Gerwin van Royen
 pageSections:
   - _component: page-sections/heroes/hero-center
     eyebrow:
-    heading: Gerwin van Royen
-    subtext: Web developer based in Dunedin.
+    heading: Welcome to my home page.
+    subtext: I'm a web developer based in Dunedin, NZ. When not working I will be with my family or in the garden/workshop. You can see my various projects below.
     buttonSections: []
     colorScheme: inherit
-    backgroundColor: base
-  - _component: page-sections/features/feature-split
-    eyebrow: Documentation
-    heading: Every component, clearly documented
-    subtext: >-
-      Each component comes with straightforward docs, real examples, full
-      descriptions of every property, and clear guidance without having to dig
-      through source files.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-documented.svg
-    imageAlt: Website Hero
-    imageAspectRatio: none
-    imageRounded: false
-    reverse: true
-    colorScheme: inherit
-    backgroundColor: base
+    backgroundColor: bas
   - _component: page-sections/features/feature-grid
-    eyebrow: Principles
-    heading: Built for real-world web projects
-    subtext: No trends. No noise. Just reliability.
+    eyebrow: Web development
+    heading: Projects
+    subtext: 
     features:
       - title: Web fundamentals
         description: >-
