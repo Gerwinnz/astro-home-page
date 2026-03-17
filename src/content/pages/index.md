@@ -1,30 +1,15 @@
 ---
 _schema: default
 title: Gerwin van Royen
-description: Build fast, customizable Astro sites with a modern component starter that is easy to edit and maintain.
+description: >-
+  Build fast, customizable Astro sites with a modern component starter that is
+  easy to edit and maintain.
 pageSections:
   - _component: page-sections/heroes/hero-center
     eyebrow:
     heading: Gerwin van Royen
-    subtext: >-
-      Web dev
-    buttonSections:
-      - _component: building-blocks/core-elements/button
-        text: Explore Components
-        hideText: false
-        link: /component-docs/
-        iconName: ''
-        iconPosition: before
-        variant: primary
-        size: md
-      - _component: building-blocks/core-elements/button
-        text: View in GitHub
-        hideText: false
-        link: https://github.com/CloudCannon/astro-component-starter
-        iconName: ''
-        iconPosition: before
-        variant: secondary
-        size: md
+    subtext: Web developer based in Dunedin.
+    buttonSections: []
     colorScheme: inherit
     backgroundColor: base
   - _component: page-sections/features/feature-split
@@ -46,9 +31,6 @@ pageSections:
     eyebrow: Principles
     heading: Built for real-world web projects
     subtext: No trends. No noise. Just reliability.
-    gap: xl
-    minItemWidth: 280
-    maxItemWidth: 360
     features:
       - title: Web fundamentals
         description: >-
@@ -60,8 +42,8 @@ pageSections:
         description: >-
           Static-rendered, minimal payloads, zero waste. Built to be extremely
           fast from the first byte.
-        iconName: bolt
-        iconColor: yellow
+        iconName: device-tablet
+        iconColor: red
       - title: Everything just fits
         description: >-
           Simple, predictable components that play nice together. Build bigger
@@ -81,6 +63,21 @@ pageSections:
         iconName: paint-brush
         iconColor: pink
     colorScheme: inherit
-    backgroundColor: surface
-    align: cente
+    backgroundColor: accent
+    gap: xl
+    minItemWidth: 280
+    maxItemWidth: 360
+    align: start
+  - _component: page-sections/features/feature-split
+    eyebrow: Eyebrow text
+    heading: Heading text
+    subtext: Subtext placeholder text that will be replaced with actual content.
+    buttonSections: []
+    imageSource: /src/assets/images/component-docs/dunedin-cliff.jpg
+    imageAlt: Feature image
+    imageAspectRatio: portrait
+    imageRounded: true
+    reverse: false
+    colorScheme: inherit
+    backgroundColor: highlight
 ---
