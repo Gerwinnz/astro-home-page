@@ -3,7 +3,6 @@ import Heading from "@core-elements/heading/Heading.astro";
 import Icon from "@core-elements/icon/Icon.astro";
 import Text from "@core-elements/text/Text.astro";
 import Card from "@wrappers/card/Card.astro";
-import GridItem from "@wrappers/grid/GridItem.astro";
 
 const {
   title = "",
@@ -18,7 +17,7 @@ const {
 } = Astro.props;
 ---
 
-<GridItem
+<div
   class="project-list-item"
   {...htmlAttributes}
 >
@@ -52,7 +51,7 @@ const {
       text={description}
     />
   </Card>
-</GridItem>
+</div>
 
 <style>
   @layer page-sections {
