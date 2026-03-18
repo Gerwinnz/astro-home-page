@@ -53,10 +53,10 @@ maxItemWidth:
   comment: Maximum width for each feature card in pixels.
 projects:
   type: array
-  label: Features
-  comment: Feature cards rendered in the grid.
+  label: Projects
+  comment: Projects listed
   options:
-    structures: _structures.featureGridItems
+    structures: _structures.projectListItems
 colorScheme:
   type: select
   comment: Color scheme theme applied to the section wrapper.

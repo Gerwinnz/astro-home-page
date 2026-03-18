@@ -21,7 +21,7 @@ picker_preview:
 _inputs_from_glob:
   - /src/components/page-sections/projects/project-list/project-list.cloudcannon.inputs.yml
 _structures:
-  projectGridItems:
+  projectListItems:
     values:
       - label: Feature
         icon: apps
