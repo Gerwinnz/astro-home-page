@@ -38,6 +38,19 @@ pageSections:
     minItemWidth: 280
     maxItemWidth: 360
     align: start
+  - _component: page-sections/projects/project-list
+    eyebrow: Woodworking
+    heading: Projects
+    subtext:
+    projects:
+      - title: Cabinet
+        description: >-
+          Project description placeholder text that will be replaced with actual
+          content.
+        iconName: bolt
+        iconColor: yellow
+    colorScheme: dark
+    backgroundColor: base
   - _component: page-sections/features/feature-split
     eyebrow: Eyebrow text
     heading: Heading text
