@@ -6,6 +6,7 @@ import Text from "@core-elements/text/Text.astro";
 const {
   title = "",
   description = "",
+  number = "",
   iconName = "",
   iconColor = "default",
   iconBackground = true,
@@ -21,7 +22,9 @@ const {
   {...htmlAttributes}
 >
   <div class:list={["project-item", className]}>
-    <div class="project-item__number"></div>
+    <div class="project-item__number">
+      <span data-prop="number">{number}</span>
+    </div>
     <div class="project-item__details">
       <Heading
         class="project-title"
@@ -58,8 +61,16 @@ const {
     }
 
     .project-item__number {
+      display: flex;
+      flex-shrink: 0;
       width: 120px;
       border-right: solid 2px var(--color-border);
+      text-align: center;
+      font-size: 32px;
+
+      span {
+        margin: auto;
+      }
     }
 
     .project-item__details {
