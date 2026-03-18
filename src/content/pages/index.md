@@ -17,7 +17,7 @@ pageSections:
     eyebrow: Web development
     heading: Projects
     subtext:
-    features:
+    projects:
       - title: Lineyear
         description: A calendar web app with year view as main view for planning.
         iconName: cube

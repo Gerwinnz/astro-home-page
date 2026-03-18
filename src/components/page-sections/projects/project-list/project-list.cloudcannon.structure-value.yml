@@ -23,17 +23,17 @@ _inputs_from_glob:
 _structures:
   projectListItems:
     values:
-      - label: Feature
+      - label: Project
         icon: apps
         value:
-          title: Feature title
-          description: Feature description placeholder text that will be replaced with actual content.
+          title: Project title
+          description: Project description placeholder text that will be replaced with actual content.
           iconName: bolt
           iconColor: yellow
         preview:
           text:
             - key: title
-            - Feature
+            - Project
           subtext:
             - key: description
           image:
