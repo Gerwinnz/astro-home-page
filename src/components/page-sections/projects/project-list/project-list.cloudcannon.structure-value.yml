@@ -14,7 +14,6 @@ preview:
     - Project List
   subtext:
     - key: heading
-  icon: apps
 picker_preview:
   text: Project List
   subtext: Grid of project highlights with icons and descriptions.
@@ -25,6 +24,7 @@ _structures:
     values:
       - label: Project
         value:
+          number: 0
           title: Project title
           description: Project description placeholder text that will be replaced with actual content.
         preview:
@@ -36,6 +36,8 @@ _structures:
           image:
             - template: src/icons/{iconName}.svg
         _inputs:
+          number:
+            type: text
           title:
             type: text
             comment: Name of the project.
