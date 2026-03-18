@@ -1,53 +1,39 @@
 ---
 _schema: default
 title: Gerwin van Royen
-description: >-
-  Home page of Gerwin van Royen
+description: Home page of Gerwin van Royen
 pageSections:
   - _component: page-sections/heroes/hero-center
     eyebrow:
     heading: Welcome to my home page.
-    subtext: I'm a web developer based in Dunedin, NZ. When not working I will be with my family or in the garden/workshop. You can see my various projects below.
+    subtext: >-
+      I'm a web developer based in Dunedin, NZ. When not working I will be with
+      my family or in the garden/workshop. You can see my various projects
+      below.
     buttonSections: []
     colorScheme: inherit
     backgroundColor: bas
   - _component: page-sections/projects/project-list
     eyebrow: Web development
     heading: Projects
-    subtext: 
+    subtext:
     features:
-      - title: Web fundamentals
-        description: >-
-          Semantic HTML. Lean CSS. JavaScript only when it's needed. The stack
-          is boring by design, and that’s exactly why it works.
+      - title: Lineyear
+        description: A calendar web app with year view as main view for planning.
         iconName: cube
-        iconColor: blue
-      - title: Built for speed
+        iconColor: '#0000ff'
+      - title: Flourjs
         description: >-
-          Static-rendered, minimal payloads, zero waste. Built to be extremely
-          fast from the first byte.
+          A small, no dependency, no built, javascript framework for building
+          fast, small, web applications.
         iconName: device-tablet
-        iconColor: red
-      - title: Everything just fits
-        description: >-
-          Simple, predictable components that play nice together. Build bigger
-          pieces without creating a maintenance mess.
+        iconColor: '#ff0000'
+      - title: Isometric point and click game
+        description: 'An isometric, stealth, point and click game built from scrach. '
         iconName: puzzle-piece
-        iconColor: green
-      - title: Controlled editing
-        description: >-
-          Enough freedom for editors to move fast. Enough structure for
-          developers to sleep at night.
-        iconName: pencil
-        iconColor: purple
-      - title: Adaptable
-        description: >-
-          Purposefully plain styling. The whole component starter adapts to your
-          designs without a fight.
-        iconName: paint-brush
-        iconColor: pink
+        iconColor: '#008000'
     colorScheme: inherit
-    backgroundColor: accent
+    backgroundColor: '#000000'
     gap: xl
     minItemWidth: 280
     maxItemWidth: 360
