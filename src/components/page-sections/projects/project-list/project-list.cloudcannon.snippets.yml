@@ -8,7 +8,7 @@ featureGrid:
       - key: heading
     icon: apps
   definitions:
-    component_name: FeatureGrid
+    component_name: ProjectList
     named_args:
       - editor_key: eyebrow
         type: string
@@ -22,7 +22,7 @@ featureGrid:
         type: string
         optional: true
         remove_empty: true
-      - editor_key: features
+      - editor_key: projects
         type: array
       - editor_key: colorScheme
         type: string
@@ -33,4 +33,4 @@ featureGrid:
         optional: true
         remove_empty: true
   _inputs_from_glob:
-    - /src/components/page-sections/features/feature-grid/feature-grid.cloudcannon.inputs.yml
+    - /src/components/page-sections/projects/project-list/project-list.cloudcannon.inputs.yml
