@@ -24,12 +24,9 @@ _structures:
   projectListItems:
     values:
       - label: Project
-        icon: apps
         value:
           title: Project title
           description: Project description placeholder text that will be replaced with actual content.
-          iconName: bolt
-          iconColor: yellow
         preview:
           text:
             - key: title
@@ -57,36 +54,3 @@ _structures:
               underline: false
               bulletedlist: false
               numberedlist: false
-          iconName:
-            type: select
-            comment: Icon displayed with the project.
-            options:
-              values: _select_data.icons
-              preview:
-                text:
-                  - key: name
-                image:
-                  - template: src/icons/{id}.svg
-          iconColor:
-            type: select
-            comment: Color accent applied to the icon.
-            options:
-              values:
-                - id: default
-                  name: Default
-                - id: blue
-                  name: Blue
-                - id: green
-                  name: Green
-                - id: yellow
-                  name: Yellow
-                - id: orange
-                  name: Orange
-                - id: red
-                  name: Red
-                - id: purple
-                  name: Purple
-                - id: pink
-                  name: Pink
-                - id: cyan
-                  name: Cyan

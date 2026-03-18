@@ -52,20 +52,16 @@ const {
   />
   
   <div class="project-list__layout">
-    <div class="project-list__items">
+    <div class="project-list__items" data-children-prop="projects">
       {
-        projects.map((feature: ProjectProps) => (
+        projects.map((project: ProjectProps) => (
           <ProjectItem
             data-id="page-sections/projects/project-list/project-item"
             data-editable="array-item"
-            {...feature}
+            {...project}
           />
         ))
       }
-    </div>
-
-    <div class="project-list__preview">
-
     </div>
   </div>
 

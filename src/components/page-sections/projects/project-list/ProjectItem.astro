@@ -2,7 +2,6 @@
 import Heading from "@core-elements/heading/Heading.astro";
 import Icon from "@core-elements/icon/Icon.astro";
 import Text from "@core-elements/text/Text.astro";
-import Card from "@wrappers/card/Card.astro";
 
 const {
   title = "",
@@ -21,36 +20,26 @@ const {
   class="project-list-item"
   {...htmlAttributes}
 >
-  <Card
-    class:list={["project-item", className]}
-    paddingHorizontal="lg"
-    paddingVertical="lg"
-    backgroundColor="accent"
-  >
-    <Icon
-      class="project-icon"
-      name={iconName}
-      size="lg"
-      color={iconColor}
-      background={iconBackground}
-      alignX="start"
-    />
-    <Heading
-      class="project-title"
-      level="h3"
-      size="md"
-      alignX="start"
-      data-prop="title"
-    >
-      {title}
-    </Heading>
-    <Text
-      class="project-description"
-      alignX="start"
-      data-prop="description"
-      text={description}
-    />
-  </Card>
+  <div class:list={["project-item", className]}>
+    <div class="project-item__number"></div>
+    <div class="project-item__details">
+      <Heading
+        class="project-title"
+        level="h3"
+        size="md"
+        alignX="start"
+        data-prop="title"
+      >
+        {title}
+      </Heading>
+      <Text
+        class="project-description"
+        alignX="start"
+        data-prop="description"
+        text={description}
+      />
+    </div>
+  </div>
 </div>
 
 <style>
@@ -62,6 +51,19 @@ const {
 
     :global(.project-description) {
       margin-top: 0;
+    }
+
+    .project-item {
+      display: flex;
+    }
+
+    .project-item__number {
+      width: 120px;
+      border-right: solid 2px var(--color-border);
+    }
+
+    .project-item__details {
+      padding: 16px;
     }
   }
 </style>
