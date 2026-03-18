@@ -32,8 +32,6 @@ pageSections:
         description: 'An isometric, stealth, point and click game built from scrach. '
         iconName: puzzle-piece
         iconColor: '#008000'
-    colorScheme: inherit
-    backgroundColor: '#000000'
     gap: xl
     minItemWidth: 280
     maxItemWidth: 360
