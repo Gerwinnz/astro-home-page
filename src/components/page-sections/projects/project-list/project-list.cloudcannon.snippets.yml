@@ -1,4 +1,4 @@
-featureGrid:
+projectList:
   template: mdx_component
   inline: false
   preview:

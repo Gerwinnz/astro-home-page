@@ -51,7 +51,7 @@ minItemWidth:
 maxItemWidth:
   type: number
   comment: Maximum width for each feature card in pixels.
-features:
+projects:
   type: array
   label: Features
   comment: Feature cards rendered in the grid.
