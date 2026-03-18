@@ -11,7 +11,7 @@ pageSections:
     buttonSections: []
     colorScheme: inherit
     backgroundColor: bas
-  - _component: page-sections/features/feature-grid
+  - _component: page-sections/projects/project-list
     eyebrow: Web development
     heading: Projects
     subtext: 

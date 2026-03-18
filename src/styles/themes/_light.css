@@ -25,7 +25,7 @@
   --color-bg-brand-muted: var(--color-brand-muted);
   --color-bg-inverse: var(--gray-12);
 
-  --color-border: var(--gray-4);
+  --color-border: var(--gray-12);
   --color-border-inputs: var(--gray-7);
   --color-border-strong: var(--gray-10);
   --color-border-subtle: var(--gray-1);

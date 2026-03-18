@@ -48,14 +48,6 @@ const mobileNavData = [
       navData={navData}
       class="desktop-main-nav"
     />
-
-    <ButtonGroup
-      direction="row"
-      align="center"
-      class="desktop-button-group"
-      buttonSections={buttonSections}
-      useDefaultEditableBinding={false}
-    />
   </div>
   <Mobile
     logoSource={logoSource}
@@ -70,10 +62,11 @@ const mobileNavData = [
   @layer page-sections {
     .main-nav {
       background-color: var(--color-bg);
-      padding-block: var(--spacing-md);
+      border-bottom: solid 2px var(--color-border);
       position: sticky;
       top: 0;
       z-index: var(--layer-2);
+
 
       .desktop-main-nav,
       .desktop-button-group.button-group {
@@ -95,6 +88,7 @@ const mobileNavData = [
       a.logo {
         color: #FF5814;
         font-weight: bold;
+        line-height: 60px;
         text-decoration: none;
       }
 
