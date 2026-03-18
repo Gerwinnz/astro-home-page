@@ -17,6 +17,21 @@ pageSections:
     eyebrow: Web development
     heading: Projects
     subtext:
+    projects:
+      - title: Feature title
+        description: >-
+          Feature description placeholder text that will be replaced with actual
+          content.
+        iconName: bolt
+        iconColor: yellow
+      - title: Feature title
+        description: >-
+          Feature description placeholder text that will be replaced with actual
+          content.
+        iconName: bolt
+        iconColor: yellow
+    colorScheme: inherit
+    backgroundColor: '#000000'
     features:
       - title: Lineyear
         description: A calendar web app with year view as main view for planning.
@@ -32,8 +47,6 @@ pageSections:
         description: 'An isometric, stealth, point and click game built from scrach. '
         iconName: puzzle-piece
         iconColor: '#008000'
-    colorScheme: inherit
-    backgroundColor: '#000000'
     gap: xl
     minItemWidth: 280
     maxItemWidth: 360
