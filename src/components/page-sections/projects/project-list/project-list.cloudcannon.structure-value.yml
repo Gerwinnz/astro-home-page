@@ -1,12 +1,12 @@
 label: Project List
 icon: apps
-description: Responsive grid layout for highlighting multiple product features.
+description: Responsive list layout for listing projects
 value:
-  _component: page-sections/features/feature-grid
+  _component: page-sections/projects/project-list
   eyebrow: Eyebrow text
   heading: Heading text
   subtext: Subtext placeholder text that will be replaced with actual content.
-  features: []
+  projects: []
   colorScheme: inherit
   backgroundColor: base
 preview:
@@ -17,11 +17,11 @@ preview:
   icon: apps
 picker_preview:
   text: Project List
-  subtext: Grid of feature highlights with icons and descriptions.
+  subtext: Grid of project highlights with icons and descriptions.
 _inputs_from_glob:
-  - /src/components/page-sections/features/feature-grid/feature-grid.cloudcannon.inputs.yml
+  - /src/components/page-sections/projects/project-list/project-list.cloudcannon.inputs.yml
 _structures:
-  featureGridItems:
+  projectGridItems:
     values:
       - label: Feature
         icon: apps
@@ -41,10 +41,10 @@ _structures:
         _inputs:
           title:
             type: text
-            comment: Name of the feature.
+            comment: Name of the project.
           description:
             type: markdown
-            comment: Supporting description for the feature.
+            comment: Supporting description for the project.
             options:
               blockquote: false
               bold: true
@@ -59,7 +59,7 @@ _structures:
               numberedlist: false
           iconName:
             type: select
-            comment: Icon displayed with the feature.
+            comment: Icon displayed with the project.
             options:
               values: _select_data.icons
               preview:
