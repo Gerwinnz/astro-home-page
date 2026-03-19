@@ -7,7 +7,7 @@ pageSections:
     eyebrow:
     heading: 
     subtext: >-
-      I'm a web developer based in Dunedin, NZ. When not working I will be with
+      I'm a web developer based in Dunedin, NZ. When not working I'll be with
       my family or in the garden/workshop. You can see my various projects
       below.
     buttonSections: []
@@ -51,16 +51,4 @@ pageSections:
         iconColor: yellow
     colorScheme: dark
     backgroundColor: base
-  - _component: page-sections/features/feature-split
-    eyebrow: Eyebrow text
-    heading: Heading text
-    subtext: Subtext placeholder text that will be replaced with actual content.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/dunedin-cliff.jpg
-    imageAlt: Feature image
-    imageAspectRatio: portrait
-    imageRounded: true
-    reverse: false
-    colorScheme: inherit
-    backgroundColor: highlight
 ---
