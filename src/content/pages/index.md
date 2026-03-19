@@ -19,16 +19,19 @@ pageSections:
     subtext:
     projects:
       - title: Lineyear
+        number: "01"
         description: A calendar web app with year view as main view for planning.
         iconName: cube
         iconColor: '#0000ff'
       - title: Flourjs
+        number: "02"
         description: >-
           A small, no dependency, no built, javascript framework for building
           fast, small, web applications.
         iconName: device-tablet
         iconColor: '#ff0000'
       - title: Isometric point and click game
+        number: "03"
         description: 'An isometric, stealth, point and click game built from scrach. '
         iconName: puzzle-piece
         iconColor: '#008000'
@@ -44,6 +47,7 @@ pageSections:
     subtext:
     projects:
       - title: Cabinet
+        number: "04"
         description: >-
           Project description placeholder text that will be replaced with actual
           content.
