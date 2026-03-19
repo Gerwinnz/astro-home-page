@@ -5,7 +5,7 @@ description: Home page of Gerwin van Royen
 pageSections:
   - _component: page-sections/heroes/hero-center
     eyebrow:
-    heading: Welcome to my home page.
+    heading: 
     subtext: >-
       I'm a web developer based in Dunedin, NZ. When not working I will be with
       my family or in the garden/workshop. You can see my various projects

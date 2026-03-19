@@ -32,25 +32,6 @@ const {
   >
     <div class="footer-content">
       <div class="content-container">
-        <Image
-          source={logoSource}
-          alt={logoAlt}
-          class="footer-logo"
-          useDefaultEditableBinding={false}
-        />
-      </div>
-      <div class="content-container">
-        <Bar
-          navData={links}
-          useDefaultEditableBinding={false}
-        />
-      </div>
-    </div>
-
-    <Divider />
-
-    <div class="footer-content">
-      <div class="content-container">
         <Text
           class="footer-legal-text"
           text={footerText || ""}
@@ -88,6 +69,7 @@ const {
   @layer page-sections {
     .footer {
       container-type: inline-size;
+      border-top: solid 2px var(--color-border);
 
       :global(.button-group) {
         &:global(.align-end) {

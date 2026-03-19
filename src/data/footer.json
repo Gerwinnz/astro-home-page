@@ -18,15 +18,11 @@
   "socials": [
     {
       "icon": "social/github",
-      "link": "https://github.com"
+      "link": "https://github.com/Gerwinnz"
     },
     {
       "icon": "social/x",
-      "link": "https://twitter.com"
-    },
-    {
-      "icon": "social/linkedin",
-      "link": "https://linkedin.com"
+      "link": "https://twitter.com/gerwinvanroyen"
     }
   ],
   "footerText": "© 2026 All rights reserved."

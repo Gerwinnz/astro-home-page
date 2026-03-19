@@ -3,18 +3,8 @@
   "logoAlt": "Logo",
   "navData": [
     {
-      "name": "Home",
-      "path": "/",
-      "children": []
-    },
-    {
-      "name": "Why",
-      "path": "/why/",
-      "children": []
-    },
-    {
-      "name": "Blog",
-      "path": "/blog/",
+      "name": "About",
+      "path": "/about",
       "children": []
     }
   ],
