@@ -19,11 +19,15 @@ pageSections:
     subtext:
     projects:
       - title: Lineyear
+        status: beta
+        link: /lineyear
         number: "01"
         description: A calendar web app with year view as main view for planning.
         iconName: cube
         iconColor: '#0000ff'
       - title: Flourjs
+        status: beta
+        link: /flourjs
         number: "02"
         description: >-
           A small, no dependency, no built, javascript framework for building
@@ -31,8 +35,10 @@ pageSections:
         iconName: device-tablet
         iconColor: '#ff0000'
       - title: Isometric point and click game
+        status: in-progress
+        link: /game
         number: "03"
-        description: 'An isometric, stealth, point and click game built from scrach. '
+        description: 'An isometric, stealth, point and click game built from scratch.'
         iconName: puzzle-piece
         iconColor: '#008000'
     colorScheme: inherit
@@ -47,6 +53,8 @@ pageSections:
     subtext:
     projects:
       - title: Cabinet
+        status: in-progress
+        link: /cabinet
         number: "04"
         description: >-
           Project description placeholder text that will be replaced with actual

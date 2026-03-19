@@ -5,6 +5,8 @@ import Text from "@core-elements/text/Text.astro";
 
 const {
   title = "",
+  status = "",
+  link = "",
   description = "",
   number = "",
   iconName = "",
@@ -17,8 +19,9 @@ const {
 } = Astro.props;
 ---
 
-<div
+<a
   class="project-list-item"
+  href="{link}"
   {...htmlAttributes}
 >
   <div class:list={["project-item", className]}>
@@ -26,15 +29,19 @@ const {
       <span data-prop="number">{number}</span>
     </div>
     <div class="project-item__details">
-      <Heading
-        class="project-title"
-        level="h3"
-        size="md"
-        alignX="start"
-        data-prop="title"
-      >
-        {title}
-      </Heading>
+      <div>
+          <Heading
+          class="project-title"
+          level="h3"
+          size="md"
+          alignX="start"
+          data-prop="title"
+        >
+          {title}
+        </Heading>
+
+        <div class="project-item__status">{status}</div>
+      </div>
       <Text
         class="project-description"
         alignX="start"
@@ -43,7 +50,7 @@ const {
       />
     </div>
   </div>
-</div>
+</a>
 
 <style>
   @layer page-sections {
@@ -56,8 +63,14 @@ const {
       margin-top: 0;
     }
 
+    .project-list-item {
+      display: block;
+      text-decoration: none;
+    }
+
     .project-item {
       display: flex;
+      color: var(--gray-12);
     }
 
     .project-item__number {
